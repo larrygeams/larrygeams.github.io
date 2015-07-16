@@ -196,61 +196,76 @@ section{
 /**
 * Showcase -------------- */
 
-.customer-logos{
-	list-style: none;
-	text-align: center;
-	@extend .reset;
+#showcase-customers{
 
-	li{
-		width: 150px;
-		display: inline-block;
-		vertical-align: middle;
+	.customer-logos{
+		list-style: none;
+		text-align: center;
+		@extend .reset;
 
-		a[class*='customer-logo-'] {
-		  display: block;
-		  width: 100%;
-		  height: 0;
-		  padding-bottom: 30%;
-		  background: url(../images/customers.png) 0 0 no-repeat;
-		  background-size: cover;
-		  overflow: hidden;
-		  text-indent: 100%;
-		  margin-bottom: 10px;
-		  white-space: nowrap;
-		  opacity: .5;
+		li{
+			width: 150px;
+			display: inline-block;
+			vertical-align: middle;
 
-			&:hover{
-				opacity: .75;
+			a[class*='customer-logo-'] {
+			  display: block;
+			  width: 100%;
+			  height: 0;
+			  padding-bottom: 30%;
+			  background: url(../images/customers.png) 0 0 no-repeat;
+			  background-size: cover;
+			  overflow: hidden;
+			  text-indent: 100%;
+			  margin-bottom: 10px;
+			  white-space: nowrap;
+			  opacity: .5;
+
+				&:hover{
+					opacity: .75;
+				}
+
+				&.customer-logo-foursquare   { background-position: 0 0%;}
+				&.customer-logo-square       { background-position: 0 2.5%;}
+				&.customer-logo-evernote     { background-position: 0 5%;}
+				&.customer-logo-pinterest    { background-position: 0 7.5%;}
+				&.customer-logo-github       { background-position: 0 10%;}
+				&.customer-logo-wp           { background-position: 0 12.5%;}
+				&.customer-logo-ft           { background-position: 0 15%;}
+				&.customer-logo-usatoday     { background-position: 0 17.5%;}
+				&.customer-logo-guardian     { background-position: 0 20%;}
+				&.customer-logo-fcc          { background-position: 0 22.5%;}
+				&.customer-logo-nps          { background-position: 0 25%;}
+				&.customer-logo-shopify      { background-position: 0 27.5%;}
+				&.customer-logo-ea           { background-position: 0 30%;}
+				&.customer-logo-nat-geo      { background-position: 0 32.5%;}
+				&.customer-logo-500px        { background-position: 0 35%;}
+				&.customer-logo-npr          { background-position: 0 37.5%;}
+				&.customer-logo-wsj          { background-position: 0 40%;}
+				&.customer-logo-ddg          { background-position: 0 42.5%;}
+				&.customer-logo-instacart    { background-position: 0 45%;}
+				&.customer-logo-etsy         { background-position: 0 47.5%;}
+				&.customer-logo-roadtrippers { background-position: 0 50%;}
+				&.customer-logo-circa        { background-position: 0 52.5%;}
+				&.customer-logo-lemonde      { background-position: 0 55%;}
+				&.customer-logo-zeit          { background-position: 0 57.5%;}
+				&.customer-logo-gizmodo      { background-position: 0 60%;}
+				&.customer-logo-reuters      { background-position: 0 62.5%;}
 			}
-
-			&.customer-logo-foursquare   { background-position: 0 0%;}
-			&.customer-logo-square       { background-position: 0 2.5%;}
-			&.customer-logo-evernote     { background-position: 0 5%;}
-			&.customer-logo-pinterest    { background-position: 0 7.5%;}
-			&.customer-logo-github       { background-position: 0 10%;}
-			&.customer-logo-wp           { background-position: 0 12.5%;}
-			&.customer-logo-ft           { background-position: 0 15%;}
-			&.customer-logo-usatoday     { background-position: 0 17.5%;}
-			&.customer-logo-guardian     { background-position: 0 20%;}
-			&.customer-logo-fcc          { background-position: 0 22.5%;}
-			&.customer-logo-nps          { background-position: 0 25%;}
-			&.customer-logo-shopify      { background-position: 0 27.5%;}
-			&.customer-logo-ea           { background-position: 0 30%;}
-			&.customer-logo-nat-geo      { background-position: 0 32.5%;}
-			&.customer-logo-500px        { background-position: 0 35%;}
-			&.customer-logo-npr          { background-position: 0 37.5%;}
-			&.customer-logo-wsj          { background-position: 0 40%;}
-			&.customer-logo-ddg          { background-position: 0 42.5%;}
-			&.customer-logo-instacart    { background-position: 0 45%;}
-			&.customer-logo-etsy         { background-position: 0 47.5%;}
-			&.customer-logo-roadtrippers { background-position: 0 50%;}
-			&.customer-logo-circa        { background-position: 0 52.5%;}
-			&.customer-logo-lemonde      { background-position: 0 55%;}
-			&.customer-logo-zeit          { background-position: 0 57.5%;}
-			&.customer-logo-gizmodo      { background-position: 0 60%;}
-			&.customer-logo-reuters      { background-position: 0 62.5%;}
 		}
 	}
+
+	.btn{
+		max-width: 320px;
+		margin: auto;
+		display: block;
+		margin-bottom: 10px;
+
+		@media screen and (min-width: $screen-sm){
+			display: inline-block;
+		}
+	}
+
 }
 
 .customer-logos-colored{

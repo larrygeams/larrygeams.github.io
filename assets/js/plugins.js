@@ -1,6 +1,7 @@
 $(function(){
 
-	smooth_target();
+	smoothTarget();
+	logoCarousel();
 
 });
 
@@ -8,7 +9,7 @@ $(function(){
 * Add Smooth Scrolling Transition
 */
 
-var smooth_target = function(){
+var smoothTarget = function(){
 
 	$('a[href^="#"]').click(function(event) {
 
@@ -20,4 +21,30 @@ var smooth_target = function(){
 		event.preventDefault();
 	});
 
+}
+
+/*
+* Showcase - Logo Carousel 
+*/
+
+var logoCarousel = function(){
+
+	$('.customer-logos').owlCarousel({
+	    loop	: true,
+	    margin	: 10,
+	    nav		: false,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        768:{
+	            items:3,
+	            dots : false
+	        },
+	        992:{
+	            items: 6,
+	            dots : false
+	        }
+	    }
+	})
 }

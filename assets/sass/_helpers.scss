@@ -190,6 +190,10 @@ input[type="button"]{
 	font-size: 18px;
 }
 
+.list-unstyled{
+	@extend .reset;
+}
+
 code{
 	color: rgba( $primary-color, 0.8 );
 	background-color: rgba( $light-color, 0.25 );
