@@ -1,2 +1,2 @@
-# larrygeams.github.io
-Personal Website of Larry Geams Parangan on Github | http://larrygeams.github.io/
+# Larry Geams Parangan
+Your Friendly UI / UX Designer and Front End Developer on Github 
