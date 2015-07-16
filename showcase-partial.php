@@ -18,7 +18,7 @@
             <ul class="list-unstyled">
               <li><a href="#showcase" class="btn btn-primary">Showcase <i class="fa fa-arrow-right"></i></a></li>
             </ul> 
-          </div>
+          </div> 
 
         </div>
       </div>
