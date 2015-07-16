@@ -1,0 +1,219 @@
+
+/**
+* Helper Classes -------------- */
+
+.reset{ margin: 0; padding: 0; }
+
+.clearfix{ clear: both; overflow: hidden; }
+
+/* Padding
+------------------------------ */
+
+.pad0  { padding:5px; }
+.pad0y { padding-top:5px; padding-bottom:5px; }
+.pad0x { padding-right:5px; padding-left:5px; }
+
+.pad1    { padding:10px; }
+.pad2    { padding:20px; }
+.pad4    { padding:40px; }
+
+.pad1x { padding-left: 10px; padding-right: 10px;}
+.pad2x { padding-left: 20px; padding-right: 20px;}
+.pad4x { padding-left: 40px; padding-right: 40px;}
+
+.pad1y { padding-top: 10px; padding-bottom: 10px;}
+.pad2y { padding-top: 20px; padding-bottom: 20px;}
+.pad4y { padding-top: 40px; padding-bottom: 40px;}
+
+.pad8 {  padding: 80px; }
+.pad8y { padding-top: 80px; padding-bottom: 80px;}
+.pad8x { padding-left: 80px; padding-right: 80px;}
+
+
+
+/* Background Fills
+------------------------- */
+
+.fill-primary{
+	background-color: $primary-color;
+}
+
+.fill-secondary{
+	background-color: $secondary-color;
+}
+
+.fill-success{
+	background-color: $success-color;
+}
+
+.fill-danger{
+	background-color: $danger-color;
+}
+
+.fill-warning{
+	background-color: $warning-color;
+}
+
+
+
+/**
+* Buttons -------------- */	
+
+.btn,
+button,
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"]{
+	display: inline-block;
+	height: 45px;
+	padding: 0 30px;
+	color: $text-color;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 2px solid $text-color;
+	cursor: pointer;
+	@include appearance(none);
+	@include border-radius(4px);
+	@include transform( translateY(0) );
+	@include transition(all, 0.3s, ease);
+
+
+	/**
+	* Psuedo -------------- */
+
+	&:hover,
+	&:focus{
+		background-color: transparent;
+		border-color: $dark-color;
+		@include box-shadow(0, 0, 0);
+	}
+
+	&:active{
+		background-color: transparent;
+		@include box-shadow(0, 0, 0);
+		@include transform( translateY(1px) );
+	}
+
+	&:focus{
+		outline: 0;
+		background: transparent;
+	}
+
+	/**
+	* Components -------------- */
+
+	&.btn-primary{
+		background-color: $primary-color;
+		border-color: $primary-color;
+		color: $white-color;
+
+			&:hover,
+			&:focus{
+				background-color: $secondary-color;
+				border-color: $secondary-color;
+				color: $white-color;
+			}
+	}
+
+
+	&.btn-secondary{
+		background-color: $secondary-color;
+		border-color: $secondary-color;
+		color: $white-color;
+	}
+
+	&.btn-anchor{
+		border-color: $white-color;
+		color: $white-color;
+
+			&:hover,
+			&:focus{
+				border-color: rgba( $white-color, 0.6 );
+				color: $white-color;
+			}
+	}
+
+	&.btn-large{
+		padding: 0 44px;
+		font-size: 18px;
+		height: 58px;
+		line-height: 58px;
+	}
+
+	&.btn-medium{
+		padding: 0 36px;
+		font-size: 14px;
+		height: 48px;
+		line-height: 48px;
+	}
+
+	&.btn-small{
+		padding: 0 26px;
+		font-size: 12px;
+		height: 38px;
+		line-height: 38px;
+	}
+
+	&.btn-circle{
+		@include border-radius(50px);
+	}
+
+	&.btn-lowercase{
+		text-transform: lowercase;
+	}
+
+}	
+
+/**
+* Boostrap Resets -------------- */
+
+.row{
+	&.no-gutter{
+		margin-left: 0;
+		margin-right: 0;
+
+		div[class*="col-"]{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+.lead{
+	font-size: 18px;
+}
+
+code{
+	color: rgba( $primary-color, 0.8 );
+	background-color: rgba( $light-color, 0.25 );
+}
+
+.dropdown-menu{
+	&>li{
+		&>a{
+			padding: 10px 20px;
+		}
+	}
+}
+
+.form-control{
+	height: 38px;
+	padding: 6px 10px;
+	background-color: #fff;
+	border: 1px solid #D1D1D1;
+	@include box-shadow(0,0,0);
+	@include border-radius(4px);
+	@include appearance(none);
+
+	&:focus{
+		border: 1px solid $primary-color;
+		@include box-shadow(0,0,0);
+	}
+}

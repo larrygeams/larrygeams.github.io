@@ -1,0 +1,384 @@
+@import '../bourbon/bourbon';
+@import 'mixins';
+@import 'variables';
+@import 'helpers';
+@import 'media';
+
+
+/**
+* Global -------------- */
+
+*, *:before, *:after{
+	@include box-sizing(border-box);
+}
+
+html, 
+body{
+	@extend .reset;
+}
+
+html{
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	background-color: #fff;
+	color: $text-color;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1;
+	text-rendering: geometricPrecision;
+	-moz-osx-font-smoothing: grayscale; 
+	-webkit-font-smoothing: antialiased;
+}
+
+	body{
+		font-family: $font-raleway;
+		font-weight: 400;
+	}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $font-montserrat;
+	color: $dark-color;
+	font-style: normal;
+	line-height: 1.4;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-rendering: optimizeLegibility;
+}
+
+p,ul,ol{
+	font-family: $font-raleway;
+	color: $text-color;
+	font-size: 16px;
+	line-height: 1.6;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-font-smoothing: antialiased;
+}	
+
+ul, ol{
+	list-style: none;
+	@extend .reset;
+
+	.dot{
+		color: $white-color;
+		font-size: 12px;
+		width: 18px;
+		height: 18px;
+		line-height: 18px;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
+		margin-right: 10px;
+		@include border-radius(50%);
+	}
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}	
+
+a{
+	color: $primary-color;
+	text-decoration: none !important;
+	@include transition(all, 0.3s, ease);
+
+	&.anchor{
+		font-family: $font-montserrat;
+	}
+
+	&:hover{
+		color: $secondary-color;
+	}
+
+	&:focus{
+		outline: 0;
+	}
+}
+
+strong{
+	font-weight: 600;
+}
+
+/**
+* Hero -------------- */
+
+header{
+	.hero{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background: $primary-color url(../images/grid.png);
+		color: $white-color;
+		min-height: 680px;
+
+		h1, h2, h4, p{
+			color: $white-color;
+		}
+
+		h1{
+			margin: 100px 0 15px 0;
+			font-size: 30px;
+
+			@media screen and (min-width: $screen-sm){
+				margin: 150px 0 15px 0;
+				font-size: 40px;
+			}
+
+			@media screen and (min-width: $screen-md){
+				margin: 200px 0 15px 0;
+				font-size: 45px;
+			}
+		}
+
+		.logo{
+			display: inline-block;
+			color: $white-color;
+
+			h2, h4{
+				text-transform: uppercase;
+				letter-spacing: 0.125rem;
+				@extend .reset;
+			}
+
+				h2{
+					font-size: 16px;
+					@extend .reset;
+
+					@media screen and (min-width: $screen-sm){
+						font-size: 20px;
+					}
+				}
+
+				h4{
+					font-size: 12px;
+					margin-bottom: 5px;
+					color: $light-color;
+				}
+		}
+
+		.btn{
+			max-width: 320px;
+			margin: auto;
+			display: block;
+			margin-bottom: 10px;
+
+			@media screen and (min-width: $screen-sm){
+				display: inline-block;
+			}
+		}
+
+		.anchor{
+			color: $white-color;
+
+			&:hover{
+				color: $tertiary-color;
+			}
+		}
+
+
+	} // .hero
+}
+
+/**
+* Sections -------------- */
+
+section{
+	&.section-bar{
+		.container{
+			border-bottom: 1px solid $border-color;
+		}
+	}
+}
+
+/**
+* Showcase -------------- */
+
+.customer-logos{
+	list-style: none;
+	text-align: center;
+	@extend .reset;
+
+	li{
+		width: 150px;
+		display: inline-block;
+		vertical-align: middle;
+
+		a[class*='customer-logo-'] {
+		  display: block;
+		  width: 100%;
+		  height: 0;
+		  padding-bottom: 30%;
+		  background: url(../images/customers.png) 0 0 no-repeat;
+		  background-size: cover;
+		  overflow: hidden;
+		  text-indent: 100%;
+		  margin-bottom: 10px;
+		  white-space: nowrap;
+		  opacity: .5;
+
+			&:hover{
+				opacity: .75;
+			}
+
+			&.customer-logo-foursquare   { background-position: 0 0%;}
+			&.customer-logo-square       { background-position: 0 2.5%;}
+			&.customer-logo-evernote     { background-position: 0 5%;}
+			&.customer-logo-pinterest    { background-position: 0 7.5%;}
+			&.customer-logo-github       { background-position: 0 10%;}
+			&.customer-logo-wp           { background-position: 0 12.5%;}
+			&.customer-logo-ft           { background-position: 0 15%;}
+			&.customer-logo-usatoday     { background-position: 0 17.5%;}
+			&.customer-logo-guardian     { background-position: 0 20%;}
+			&.customer-logo-fcc          { background-position: 0 22.5%;}
+			&.customer-logo-nps          { background-position: 0 25%;}
+			&.customer-logo-shopify      { background-position: 0 27.5%;}
+			&.customer-logo-ea           { background-position: 0 30%;}
+			&.customer-logo-nat-geo      { background-position: 0 32.5%;}
+			&.customer-logo-500px        { background-position: 0 35%;}
+			&.customer-logo-npr          { background-position: 0 37.5%;}
+			&.customer-logo-wsj          { background-position: 0 40%;}
+			&.customer-logo-ddg          { background-position: 0 42.5%;}
+			&.customer-logo-instacart    { background-position: 0 45%;}
+			&.customer-logo-etsy         { background-position: 0 47.5%;}
+			&.customer-logo-roadtrippers { background-position: 0 50%;}
+			&.customer-logo-circa        { background-position: 0 52.5%;}
+			&.customer-logo-lemonde      { background-position: 0 55%;}
+			&.customer-logo-zeit          { background-position: 0 57.5%;}
+			&.customer-logo-gizmodo      { background-position: 0 60%;}
+			&.customer-logo-reuters      { background-position: 0 62.5%;}
+		}
+	}
+}
+
+.customer-logos-colored{
+
+	.logo-colored{
+		width: 300px;
+
+		a[class*='customer-big-'] {
+		  display: block;
+		  width: 100%;
+		  height: 0;
+		  padding-bottom: 30%;
+		  background: url(../images/color-logos.png) 0 0 no-repeat;
+		  background-size: cover;
+		  overflow: hidden;
+		  text-indent: 100%;
+		  white-space: nowrap;
+
+			&.customer-big-foursquare { background-position: 0 0; }
+			&.customer-big-pinterest  { background-position: 0 11.11%; }
+			&.customer-big-nat-geo    { background-position: 0 22.22%; }
+			&.customer-big-evernote   { background-position: 0 33.33%; }
+			&.customer-big-ft         { background-position: 0 44.44%; }
+			&.customer-big-github     { background-position: 0 55.55%; }
+			&.customer-big-square     { background-position: 0 66.66%; }
+			&.customer-big-roadtrippers     { background-position: 0 77.77%; }
+			&.customer-big-scoot     { background-position: 0 88.88%; }
+			&.customer-big-etsy     { background-position: 0 100%; }
+		}
+	}
+
+}
+
+
+/**
+* Services -------------- */
+
+#services{
+
+	.service{
+		.service-content{
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+	}
+}
+
+#showcase{
+	overflow: hidden;
+
+	.showcase-single{
+		&:nth-of-type(even){
+			background-color: $dirty-color;
+		}
+	}
+
+	.showcase-customer{
+		position: relative;
+
+		@media screen and (min-width: $screen-sm){
+			min-height: 700px;
+		}
+
+		@media screen and (min-width: $screen-sm){
+			.showcase-thumbnail{
+				position: absolute;
+
+				&.left{
+					left: -30%;
+				}
+
+				&.right{
+					right: -30%;
+				}
+			}
+		}
+
+		.btn{
+			max-width: 320px;
+			margin: auto;
+			display: block;
+			margin-bottom: 10px;
+
+			@media screen and (min-width: $screen-sm){
+				display: inline-block;
+			}
+		}
+	}
+}
+
+
+/**
+* Footer -------------- */
+
+footer{
+	.footer{
+
+		.box{
+			width: 600px;
+			min-height: 200px;
+			max-width: 100%;
+
+			.about{
+				.about-content{
+					@media screen and (min-width: $screen-md){
+						padding-left: 140px;
+					}
+				}
+			}
+
+			@media screen and (min-width: $screen-sm){
+				padding-left: 40px;
+				padding-right: 40px;
+			}
+
+			h3, p{
+				color: $white-color;
+			}
+		}	
+
+	}
+
+	.credits{
+		
+		p{
+			margin: 0;
+			font-size: 12px;
+			letter-spacing: 1px;
+		}
+	}
+}
