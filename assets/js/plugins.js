@@ -41,15 +41,16 @@ var logoCarousel = function(){
 			    autoplayHoverPause	:true,
 	        },
 	        768:{
-	            items:3,
-	            dots : false,
+	            items				:3,
+	            dots 				: false,
 	            autoplay			:true,
 			    autoplayTimeout		:1000,
 			    autoplayHoverPause	:true,
 	        },
 	        992:{
-	            items: 6,
-	            dots : false
+	            items		: 6,
+	            dots 		: false,
+	            mouseDrag	: false,
 	        }
 	    }
 	})
