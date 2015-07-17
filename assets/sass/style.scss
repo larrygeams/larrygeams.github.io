@@ -2,7 +2,7 @@
 @import 'mixins';
 @import 'variables';
 @import 'helpers';
-@import 'media';
+@import 'media'; 
 
 
 /**
@@ -255,9 +255,9 @@ section{
 /**
 * Showcase -------------- */
 
-#showcase-customers{
+#showcase-clients{
 
-	.customer-logos{
+	.client-logos{
 		list-style: none;
 		text-align: center;
 		@extend .reset;
@@ -269,7 +269,7 @@ section{
 				display: inline-block;
 				vertical-align: middle;
 
-				a[class*='customer-logo-'] {
+				a[class*='client-logo-'] {
 					display: block;
 					width: 100%;
 					height: 0;
@@ -309,14 +309,14 @@ section{
 
 }
 
-.customer-logos-colored{
+.client-logos-colored{
 
 	.logo-colored{
 		margin-top: 0;
 		width: 300px;
 		max-width: 100%;
 
-		a[class*='customer-big-'] {
+		a[class*='client-big-'] {
 		  display: block;
 		  width: 100%;
 		  height: 0;
@@ -356,7 +356,7 @@ section{
 		}
 	}
 
-	.showcase-customer{
+	.showcase-client{
 		position: relative;
 
 		@media screen and (min-width: $screen-sm){
@@ -389,7 +389,7 @@ section{
 			}
 		}
 
-		.showcase-customer-content{
+		.showcase-client-content{
 			margin-bottom: 40px;
 		}
 

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
+
 <head>
     <!-- Metas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"     content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Larry Geams Parangan | Your Friendly UI / UX Designer &amp; Front End Developer">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development, Sass, Sass Preprocessor, bourbon, bourbon framework, personal, portfolio, one page, landing page, flat">
+    <meta name="author" content="Larry Geams Parangan">
 
     <!-- Title -->
     <title>Larry Geams Parangan | Your Friendly UI / UX Designer &amp; Front End Developer</title>
 
-    <!-- Favicons -->    
+    <!-- Favicons -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
 
     <!-- Stylesheets -->
@@ -26,11 +30,13 @@
     <script src="assets/js/vendor/modernizr.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
 </head>
+
 <body>
     <div class="page-container">
+

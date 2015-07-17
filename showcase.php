@@ -1,15 +1,12 @@
-  
-    <section id="showcase">
+                <section id="showcase">
+                    <?php 
+                    include "clients/northstar-condo.php"; 
+                    include "clients/photographr.php"; 
+                    include "clients/lets-just-eat.php"; 
+                    include "clients/omq.php"; 
+                    include "clients/with-text.php"; 
+                    include "clients/clear-card.php"; 
+                    include "clients/miss-mops.php"; 
+                    ?>
 
-      <?php 
-        include "customers/northstar-condo.php"; 
-        include "customers/photographr.php"; 
-        include "customers/lets-just-eat.php"; 
-        include "customers/omq.php"; 
-        include "customers/with-text.php"; 
-        include "customers/clear-card.php"; 
-        include "customers/miss-mops.php"; 
-      ?>
-
-    </section>
-    
+                </section>

@@ -29,7 +29,7 @@ var smoothTarget = function(){
 
 var logoCarousel = function(){
 
-	$('.customer-logos').owlCarousel({
+	$('.client-logos').owlCarousel({
 		autoplay			: true,
 		autoplayTimeout		: 3000,
 		autoplayHoverPause	: true,
