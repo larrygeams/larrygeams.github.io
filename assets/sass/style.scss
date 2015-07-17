@@ -6,7 +6,7 @@
 
 
 /**
-* Global -------------- */
+* Global -------------- */ 
 
 *, *:before, *:after{
 	@include box-sizing(border-box);
@@ -33,7 +33,7 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 
-	body{
+	body{ 
 		font-family: $font-montserrat;
 		font-weight: 400;
 	}
