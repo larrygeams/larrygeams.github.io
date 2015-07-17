@@ -31,7 +31,7 @@ var logoCarousel = function(){
 
 	$('.customer-logos').owlCarousel({
 		autoplay			: true,
-		autoplayTimeout		: 1000,
+		autoplayTimeout		: 3000,
 		autoplayHoverPause	: true,
 	    loop				: true,
 	    margin				: 10,
