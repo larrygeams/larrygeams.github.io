@@ -2,7 +2,7 @@
     <section id="services" class="services section-bar">
     	<div class="container pad4y text-center">
     		<div class="row">
-				<h1>Services</h1>
+				<h2>Services</h2>
 				<div class="col-sm-6">
 					<div class="service pad4y">
 						<figure class="service-thumbnail pad2y">

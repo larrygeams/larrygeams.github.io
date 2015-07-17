@@ -20,7 +20,7 @@
 
         <!-- Google fonts -->
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
         
         <!-- Head scripts -->
         <script src="assets/js/vendor/modernizr.min.js"></script>

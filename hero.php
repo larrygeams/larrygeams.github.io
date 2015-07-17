@@ -15,7 +15,7 @@
 
                     <a href="#showcase-customers" class="btn btn-secondary">Learn More About Me</a>
 
-                    <a href="mailto:larry.geams@gmail.com" class="btn btn-anchor btn-lowercase">larry.geams@gmail.com <i class="fa fa-arrow-right"></i> </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=larrygeams@gmail.com&su=Drop A Message&tf=1" class="btn btn-anchor" target="_blank">larry.geams@gmail.com <i class="fa fa-arrow-right"></i> </a>
                 </div>
               </div>
         </div>
