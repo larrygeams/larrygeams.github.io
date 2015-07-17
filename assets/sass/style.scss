@@ -162,13 +162,21 @@ header{
 				}
 		}
 
+		.hero-header{
+			margin-bottom: 40px;
+
+			@media screen and (min-width: $screen-sm){
+				margin-bottom: auto;
+			}
+		}
+
 		.btn{
 			max-width: 320px;
 			margin: auto;
 			display: block;
 			margin-bottom: 10px;
 
-			@media screen and (min-width: $screen-sm){
+			@media screen and (min-width: 600px){
 				display: inline-block;
 			}
 		}
