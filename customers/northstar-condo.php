@@ -1,12 +1,12 @@
 
-      <div id="northstarcondo" class="showcase-single">
+      <div id="northstar-condo" class="showcase-single">
         <div class="container pad4y">
 
           <div class="row customer-logos-colored showcase-customer pad4y">
             <div class="col-sm-5 col-md-4">
               <div class="showcase-customer-content">
                 <h2 class="logo-colored">
-                  <a class="customer-big-northstarcondo" href="#northstarcondo"></a>
+                  <a class="customer-big-northstar-condo" href="#northstar-condo"></a>
                 </h2>
                 <p><strong class="highlight">North Star Condominum</strong> is a promotional website for the building project of Iron Wood Property Ventures Corp that will be launched at the thriving North Reclamation Area, also in Mandaue City. </p>
                 <ul class="pad1y">
@@ -22,7 +22,7 @@
                 <div class="device-browser">
                   <div class="device-details"></div>
                   <div class="device-content">
-                   <img src="assets/images/website-northstarcondo.jpg" class="center-block" alt="" />
+                   <img src="assets/images/website-northstar-condo.jpg" class="center-block" alt="" />
                   </div>
                 </div>
               </figure>
@@ -30,5 +30,5 @@
           </div>  <!--/ .showcase-customer --> 
 
         </div>  
-      </div> <!--/ #northstarcondo -->
+      </div> <!--/ #northstar-condo -->
       

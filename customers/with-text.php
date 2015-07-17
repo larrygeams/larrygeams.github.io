@@ -1,12 +1,12 @@
       
-      <div id="withText" class="showcase-single">
+      <div id="with-text" class="showcase-single">
         <div class="container pad4y">
 
           <div class="row customer-logos-colored showcase-customer pad4y">
             <div class="col-sm-5 col-md-4">
               <div class="showcase-customer-content">
                 <h2 class="logo-colored">
-                  <a class="customer-big-withText" href="#withText"></a>
+                  <a class="customer-big-with-text" href="#with-text"></a>
                 </h2>
                 <p><strong class="highlight">With Text</strong> is a sms marketing web application platform where you can target your speciﬁc customers or clients while adding that personal touch, with built-in message personalization tool.</p>
                 
@@ -28,7 +28,7 @@
                 <div class="device-browser">
                   <div class="device-details"></div>
                   <div class="device-content">
-                   <img src="assets/images/website-withText.jpg" class="center-block" alt="" />
+                   <img src="assets/images/website-with-text.jpg" class="center-block" alt="" />
                   </div>
                 </div>
               </figure>

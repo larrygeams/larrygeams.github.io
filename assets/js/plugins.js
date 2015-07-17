@@ -30,27 +30,24 @@ var smoothTarget = function(){
 var logoCarousel = function(){
 
 	$('.customer-logos').owlCarousel({
-	    loop				: false,
+		autoplay			: true,
+		autoplayTimeout		: 1000,
+		autoplayHoverPause	: true,
+	    loop				: true,
 	    margin				: 10,
 	    nav					: false,
 	    responsive:{
 	        0:{
-	            items:1,
-	            autoplay			:true,
-			    autoplayTimeout		:1000,
-			    autoplayHoverPause	:true,
+	            items		:1,
 	        },
 	        768:{
-	            items				:3,
-	            dots 				: false,
-	            autoplay			:true,
-			    autoplayTimeout		:1000,
-			    autoplayHoverPause	:true,
+	            items		:3,
+	            dots 		: false,
 	        },
 	        992:{
 	            items		: 6,
 	            dots 		: false,
-	            mouseDrag	: false,
+	            drag		: false
 	        }
 	    }
 	})

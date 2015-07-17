@@ -1,12 +1,12 @@
       
-      <div id="clearCard" class="showcase-single">
+      <div id="clear-card" class="showcase-single">
         <div class="container pad4y">
 
           <div class="row customer-logos-colored showcase-customer pad4y">
             <div class="col-sm-5 col-md-4">
               <div class="showcase-customer-content">
                 <h2 class="logo-colored">
-                  <a class="customer-big-clearCard" href="#clearCard"></a>
+                  <a class="customer-big-clear-card" href="#clear-card"></a>
                 </h2>
                 <p><strong class="highlight">Clear Card</strong> the only card you will need to clear all your payments. It lets you pay your bills with no hassle. Replacing your cash wallet with our secured cash card.</p>
                 
@@ -28,7 +28,7 @@
                 <div class="device-browser">
                   <div class="device-details"></div>
                   <div class="device-content">
-                   <img src="assets/images/website-clearCard.jpg" class="center-block" alt="" />
+                   <img src="assets/images/website-clear-card.jpg" class="center-block" alt="" />
                   </div>
                 </div>
               </figure>
@@ -36,5 +36,5 @@
           </div>  <!--/ .showcase-customer --> 
 
         </div>  
-      </div> <!--/ #clearCard -->
+      </div> <!--/ #clear-card -->
       
