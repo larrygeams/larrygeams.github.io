@@ -19,7 +19,7 @@
 
                                     <div class="well">
                                         <p>
-                                            <label>Note:</label>Client wants to use <a href="http://unbounce.com/" target="_blank">Unbounce</a> - a drag and drop web platform for developing the website.</p>
+                                            <label>Note:</label> Client wants to use <a href="http://unbounce.com/" target="_blank">Unbounce</a> - a drag and drop web platform for developing the website.</p>
                                     </div>
 
                                 </div>

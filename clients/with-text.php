@@ -19,7 +19,7 @@
                                     </div>
 
                                     <div class="well">
-                                        <p><label>Note:</label>Home page illustrations and font used where already updated by other designers.</p>
+                                        <p><label>Note:</label> Home page illustrations and font used where already updated by other designers.</p>
                                     </div>
 
                                 </div>

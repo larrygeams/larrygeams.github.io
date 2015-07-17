@@ -17,7 +17,7 @@
                                     </div>
 
                                     <div class="well">
-                                        <p><label>Note:</label>Photographr website is still on development stage.</p>
+                                        <p><label>Note:</label> Photographr website is still on development stage.</p>
                                     </div>
                                 </div>
 
