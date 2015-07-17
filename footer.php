@@ -1,5 +1,5 @@
 	
-	</div> <!--/ #main-wrapper -->
+	</div> <!--/ .page-container -->
 	
 	<footer>
 		<div class="footer fill-tertiary">
