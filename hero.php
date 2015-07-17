@@ -10,7 +10,7 @@
                         <div class="col-md-8">
                             <div class="hero-header">
                                 <h1>Your Friendly UI / UX Designer, Front End Developer &amp; Gamer</h1>
-                                <p class="lead">Currently working at <a href="http://verticalops.com/" target="_blank" class="anchor">VerticalOps</a> as a <strong>Jr. Web Designer / Developer</strong> and accepting various freelance projects related to web design and development.</p>
+                                <p class="lead">Currently working at <a href="http://www.arrayagency.com/" target="_blank" class="anchor">Array Agency</a> as a <strong>UI / UX Designer / Front End Developer</strong> and accepting various freelance projects related to web design and development.</p>
                             </div>
                             
                             <a href="#showcase-clients" class="btn btn-secondary">Learn More About Me</a>
