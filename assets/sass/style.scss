@@ -221,9 +221,7 @@ section{
 			@include border-radius(5px 5px 0 0);
 		}
 
-		.device-details,
-		.device-details:before,
-		.device-details:after{
+		.device-details{
 			z-index: 10;
 			display: block;
 			position: absolute;
@@ -239,6 +237,13 @@ section{
 				content: '';
 				left: 20px;
 				top: 0;
+				z-index: 10;
+				display: block;
+				position: absolute;
+				height: 10px;
+				width: 10px;
+				border-radius: 50%;
+				background-color: $tertiary-color;
 			}
 
 			&:before{
@@ -369,15 +374,13 @@ section{
 
 		@media screen and (min-width: $screen-sm){
 
-			.showcase-thumbnail{
+			.column-clip{
 				position: absolute;
+				right: -50%;
+				width: 100%;
 
 				&.left{
-					left: -100%;
-				}
-
-				&.right{
-					right: -100%;
+					left: -50%;
 				}
 			}
 		}
@@ -385,14 +388,11 @@ section{
 		@media screen and (min-width: $screen-md){
 			min-height: 700px;
 
-			.showcase-thumbnail{
+			.column-clip{
+				right: -40%;
 
 				&.left{
-					left: -50%;
-				}
-
-				&.right{
-					right: -50%;
+					left: -40%;
 				}
 			}
 		}

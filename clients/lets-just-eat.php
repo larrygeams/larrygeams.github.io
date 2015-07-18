@@ -23,7 +23,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-sm-6 col-sm-offset-1 col-md-7 col-md-offset-1 hidden-xs">
+                                <div class="col-sm-6 col-sm-offset-1 col-md-7 col-md-offset-1 hidden-xs column-clip">
                                     <figure class="showcase-thumbnail right">
                                         <div class="device-browser">
                                             <div class="device-details"></div>
