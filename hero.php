@@ -1,7 +1,7 @@
         <header>
             <section class="hero">
                 <div class="container">
-                    <a class="logo pull-sm-left" href="/" title="Larry Geams Parangan | UI / UX Designer &amp;  Front End Developer">
+                    <a class="logo pull-sm-left" href="/" title="Larry Geams Parangan | UI / UX Designer &amp;  Front End Developer" class="pull-sm-left">
                         <h4>Designer &amp; Developer</h4>
                         <h2>Larry Geams Parangan</h2>
                     </a>
@@ -18,7 +18,7 @@
                     <div class="row hero-content">
                         <div class="col-md-8">
                             <div class="hero-header">
-                                <h1>Your Friendly UI / UX Designer, Front End Developer &amp; Gamer</h1>
+                                <h1>Your Friendly UI / UX Designer, Front End Developer</h1>
                                 <p class="lead">Currently working at <a href="http://www.arrayagency.com/" target="_blank" class="anchor">Array Agency</a> as a <strong>UI / UX Designer &amp; Front End Developer</strong> and accepting various freelance projects related to web design and development.</p>
                             </div>
                             
