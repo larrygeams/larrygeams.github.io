@@ -1,10 +1,19 @@
         <header>
             <section class="hero">
                 <div class="container">
-                    <a class="logo" href="/" title="Larry Geams Parangan | UI / UX Designer &amp;  Front End Developer">
+                    <a class="logo pull-sm-left" href="/" title="Larry Geams Parangan | UI / UX Designer &amp;  Front End Developer">
                         <h4>Designer &amp; Developer</h4>
                         <h2>Larry Geams Parangan</h2>
                     </a>
+
+                    <div class="social-media pull-sm-right">
+                        <ul class="list-inline">
+                            <li><a href="http://www.behance.net/larryGeams" title="Behance" target="_blank"> <i class="fa fa-behance"></i> </a></li>
+                            <li><a href="http://www.dribbble.com/larrygeams" title="Dribbble" target="_blank"> <i class="fa fa-dribbble"></i> </a></li>
+                            <li><a href="http://www.codepen.io/larrygeams" title="Codepen" target="_blank"> <i class="fa fa-codepen"></i> </a></li>
+                            <li><a href="http://www.github.com/larrygeams" title="Github" target="_blank"> <i class="fa fa-github"></i> </a></li>
+                        </ul>
+                    </div>
 
                     <div class="row hero-content">
                         <div class="col-md-8">

@@ -413,6 +413,31 @@ section{
 	}
 }
 
+/**
+* Social Media -------------- */
+
+.social-media{
+	ul{
+		li{
+			a{
+				display: block;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				background: $tertiary-color;
+				color: #B9C0F9;
+				text-align: center;
+				@include border-radius(50%);
+
+				&:hover,
+				&:focus{
+					color: $primary-color;
+				}
+			}
+		}
+	}
+}
+
 
 /**
 * Footer -------------- */
@@ -426,9 +451,10 @@ footer{
 			max-width: 100%;
 
 			.about{
+
 				.about-content{
 					@media screen and (min-width: $screen-md){
-						padding-left: 140px;
+						padding-left: 200px;
 					}
 				}
 			}
